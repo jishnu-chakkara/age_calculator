@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container form{
+    width: 450px;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container form .main-tittle{
+    font-size: 18px;
+    color: #cc2b5e;
+    text-align: center;
+    padding: 5px 0;
+}
+.container form .line-break{
+    width: 60%;
+    height: 3px;
+    margin: 4px auto;
+    background-color: #cc2b5e;
+}
+.container form .input_box .input-label{
+    display: inline-block;
+    color: #cc2b5e;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0 2px;
+}
+.container form .input_box input,
+.container form .input_box button{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #cc2b5e;
+    border-radius: 3px;
+}
+.container form .input_box #error{
+    display: block;
+    text-align: end;
+    font-size: 16px;
+    color: #cc2b5e;
+}
+
+.container form .btn{
+    background-color: #cc2b5e;
+    color: whitesmoke;
+    padding: 5px 0 !important;
+    margin-top: 15px !important;
+    cursor: pointer;
+
+}
+.container #age{
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.container #age span{
+    color: #06beb6;
+    font-weight: bold;
+}
+@media(max-width:760px){
+    .container form{
+        width: 400px;
+    }
+
+}
+@media(max-width:460px){
+   .container form{
+    width: 320px;
+   }
+    
+}
+
